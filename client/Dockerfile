@@ -2,6 +2,7 @@ FROM node:alpine as builder
 WORKDIR '/app'
 COPY ./package.json ./
 RUN npm install
+COPY ./node_modules/bootstrap/dist/css/bootstrap.css ./src
 COPY . .
 RUN npm run build
 
