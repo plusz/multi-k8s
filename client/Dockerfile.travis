@@ -2,7 +2,7 @@ FROM node:alpine
 WORKDIR '/app'
 COPY ./package.json ./
 RUN npm install
-RUN ls -a ./node_modules/bootstrap/dist
+RUN ls -a ./node_modules/bootstrap/dist/css
 COPY ./node_modules/bootstrap/dist/css/bootstrap.css ./src
 COPY . .
 CMD ["npm", "run", "start"]
