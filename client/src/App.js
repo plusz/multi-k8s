@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import './bootstrap.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import OtherPage from "./OtherPage";
 import Fib from "./Fib";

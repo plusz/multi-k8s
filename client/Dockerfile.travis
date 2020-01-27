@@ -1,7 +1,0 @@
-FROM node:alpine
-WORKDIR '/app'
-COPY ./package.json ./
-RUN npm install
-RUN cp ./node_modules/bootstrap/dist/css/bootstrap.css ./src
-COPY . .
-CMD ["npm", "run", "start"]
