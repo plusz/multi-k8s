@@ -36,4 +36,4 @@ spec:
                     name: pgpassword
                     key: PGPASSWORD
             - name: PGDATA
-              value: /var/lib/postgresql/data/postgres
+              value: /tmp
