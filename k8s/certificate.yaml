@@ -1,4 +1,4 @@
-apiVersion: certmanager.k8s.io/vialpha1
+apiVersion: cert-manager.io/v1alpha2
 kind: Certificate
 metadata:
     name: k8s-orpi-pl-tls
