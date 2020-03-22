@@ -1,0 +1,18 @@
+apiVersion: certmanager.k8s.io/vialpha1
+kind: Certificate
+metadata:
+    name: k8s-orpi-pl-tls
+spec:
+    secretName: k8s-orpi-pl
+    issuerRef:
+        name: letsencrypt-prod
+        kind: ClusterIssuer
+    commonName: k8s.orpi.pl
+    dnsNames:
+        - k8s.orpi.pl
+    acme:
+        config:
+            - http01:
+                ingressClass: nginx
+            domains:
+                - k8s.orpi.pl
