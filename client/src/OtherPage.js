@@ -9,7 +9,8 @@ export default () => {
             <ul>
                 <p>- Docker</p>
                 <p>- Travis CI</p>
-                <p>- AWS Elastic Beanstalk</p>
+                <p>- Google Cloud Kubernetes</p>
+                <p>- Lets Encrypt</p>
                 <p>- Express</p>
                 <p>- Nginx</p>
                 <p>- Github</p>
@@ -21,7 +22,7 @@ export default () => {
             <ul>
                 <p>- React</p>
             </ul>            
-            <p><a href="https://github.com/plusz/dockerlearning_compex">See repository in github</a></p>
+            <p><a href="https://github.com/plusz/multi-k8s">See repository in github</a></p>
             <Link to="/">Go to homepage</Link>
         </div>
     );
