@@ -13,7 +13,7 @@ class App extends Component {
           <header className="App-header-NEW">
             <p>Fibonacci calculator - by Piotr</p>
             <Link to="/">Home</Link>&nbsp;&nbsp;
-            <Link to="/otherpage">See details of project</Link>
+            <Link to="/otherpage">See details of project - 25.03.2020</Link>
             <p></p>
           </header>
           <div>

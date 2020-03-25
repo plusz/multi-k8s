@@ -17,10 +17,3 @@ spec:
           image: porzechowski/multi-client:v2
           ports:
             - containerPort: 3000
-          resources:
-            requests:
-              memory: "4Mi"
-              cpu: "25m"
-            limits:
-              memory: "16Mi"
-              cpu: "100m"
